@@ -29,18 +29,18 @@ $(function() {
 
         // loop through the allFeeds variable and check the variable url
         it('all entries have URL defined and are not empty', function() {
-           for(var i=0;i<allFeeds.length;i++) {
-               expect(allFeeds[i].url).toBeDefined();
-               expect(allFeeds[i].url).not.toBe('');
-           }
+            for(var i=0;i<allFeeds.length;i++) {
+                expect(allFeeds[i].url).toBeDefined();
+                expect(allFeeds[i].url).not.toBe('');
+            }
         });
 
         // loop through the allFeeds variable and check the variable name
         it('all entries have NAME defined and are not empty', function() {
-           for(var i=0;i<allFeeds.length;i++) {
-               expect(allFeeds[i].name).toBeDefined();
-               expect(allFeeds[i].name).not.toBe('');
-           }
+            for(var i=0;i<allFeeds.length;i++) {
+                expect(allFeeds[i].name).toBeDefined();
+                expect(allFeeds[i].name).not.toBe('');
+            }
         });
     });
 
