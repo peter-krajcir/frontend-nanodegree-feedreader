@@ -32,7 +32,7 @@ There are 2 tests:
 Initial Entries
 ---------------
 There is 1 test:
- * when the loadFeed function is called and completes its work, there is at least a single `.entry` element within the .feed container
+ * when the loadFeed function is called and completes its work, there is at least a single `.entry` element within the `.feed` container
 
 New Feed Selection
 ------------------
